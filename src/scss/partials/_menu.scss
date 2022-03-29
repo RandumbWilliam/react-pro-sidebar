@@ -278,6 +278,10 @@
                 background-color: $submenu-bg-color-collapsed;
                 padding-left: 20px;
                 border-radius: 4px;
+                .popper-inner-title {
+                  font-size: 18px;
+                  padding-bottom: 8px;
+                }
               }
             }
             &:hover {
