@@ -129,6 +129,7 @@ const SubMenu: React.ForwardRefRenderFunction<unknown, Props> = (
           ref={popperElement}
           className={classNames('pro-inner-list-item popper-element', { 'has-arrow': popperarrow })}
         >
+          {title ? <div className="popper-inner-title">{title}</div> : null}
           <div className="popper-inner" ref={popperElRef}>
             <ul>{children}</ul>
           </div>
