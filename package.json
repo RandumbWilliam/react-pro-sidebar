@@ -1,5 +1,5 @@
 {
-  "name": "@RandumbWilliam/react-pro-sidebar",
+  "name": "@randumbwilliam/react-pro-sidebar",
   "version": "0.7.2",
   "description": "React sidebar library with dropdown menus and unlimit number of nested submenus",
   "main": "dist/index.js",
